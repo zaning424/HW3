@@ -61,11 +61,11 @@ def score_sort(name, purpose):
 
 
 def best_company(list):
-    return list[0:9]
+    return list[0:10]
 
 
 def worst_company(list):
-    return list[-10:-1]
+    return list[-11:-1]
 # print(len(d))
 # print(len(sorted_score))
 # print(sorted_score[0:9])
@@ -78,3 +78,28 @@ if __name__ == "__main__":
     Sorted_list1 = score_sort(name1, purpose1)
     print(best_company(Sorted_list1))
     print(worst_company(Sorted_list1))
+
+
+#  Worst
+# [('Green, Holland and Bennett', -0.6486),
+# ('Willis and Sons', -0.6486),
+# ('Andrews Group', -0.6486),
+# ('Mcclain, Mccarthy and Lozano', -0.6486),
+# ('Huffman, Norton and Cantu', -0.6486),
+# ('Washington-Mccormick', -0.6486),
+# ('Delgado Ltd', -0.2732),
+# ('Cruz, Powell and Deleon', -0.1027),
+# ('Turner Group', -0.1027)]
+# ('Delgado Group', -0.1027)
+
+# Best
+#[('Powell-Hamilton', 0.7184)
+# ('Diaz-Ross', 0.7269),
+# ('Jackson Group', 0.7269),
+# ('Hill-Martin', 0.7351),
+# ('Hall, Heath and Perez', 0.743),
+# ('Cabrera, Levine and Underwood', 0.7579),
+# ('Barajas LLC', 0.765),
+# ('Roberts-Huff', 0.7717),
+# ('Stokes and Sons', 0.7845),
+# ('Singh PLC', 0.8271)]
